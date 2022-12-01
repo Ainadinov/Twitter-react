@@ -1,7 +1,7 @@
 import './App.css';
 import SideMenu from './components/menu';
 import Home from './components/home';
-import Search from './components/search';
+import Search from './components/Search';
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <div className='container'>
         <SideMenu/>
         <Home/>
-        <Search/>
+        <Search />
       </div>
     </div>
   );
